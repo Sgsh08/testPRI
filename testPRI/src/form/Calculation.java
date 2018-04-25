@@ -24,4 +24,22 @@ public class Calculation {
 		*/	
 		return summ;
 	}
+	/**
+	 * объявляем статичную общедоступную целочисленную функцию для вычисления
+	 * внесенной платы
+	 */
+		public static int calc_n(int ten, int fifty, int hundred){
+			/**
+			 * обнуляем переменную summa
+			 */
+			int summa = 0;
+				/**
+				 * вычисляем по формуле
+				 */
+				summa = (int) (ten * 10 + fifty * 50 + hundred * 100);
+			/**
+			* возвращаем переменную summa
+			*/	
+			return summa;
+		}
 }
